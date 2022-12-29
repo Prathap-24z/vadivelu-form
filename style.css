@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(253, 250, 255);
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.container {
+    display: inline-grid;
+    justify-items: center;
+}
+
+
+.container h4 {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: blueviolet;
+}
+
+.form {
+    width: 19rem;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-grid;
+    justify-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.input-div {
+    width: 100%;
+    display: inline-grid;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-div label {
+    font-size: 14px;
+    color: #2e373e;
+    margin-bottom: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-div input {
+    width: 100%;
+    padding: 10px 7px;
+    border-radius: 4px;
+    border: 1px solid gray;
+    /* position: relative; */
+}
+
+.vadivel_emt_img, .vadivel_foc_img {
+    position: absolute;
+    right: -40px;
+    top: 30px;
+}
+
+button {
+    font-size: 17px;
+    padding: 5px 5px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: blueviolet;
+    width: 80%;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
